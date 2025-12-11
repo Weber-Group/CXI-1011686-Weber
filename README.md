@@ -1,5 +1,5 @@
-# CXI-Template
-Template fast-analysis code for CXI Experiments
+# Fast analysis code for the 1011686 CXI beamtime.
+Generated from CXI-Template
 
 ### To set up the environment that is needed for this code, run the following commands.
 ```bash
