@@ -1,7 +1,14 @@
 # Fast analysis code for the 1011686 CXI beamtime.
 Generated from CXI-Template
 
-### To set up the environment that is needed for this code, run the following commands.
+### You can clone this repository into your home directory via ssh. If you haven't set up git already, follow the instructions in the [How-To-Git-SLAC](https://github.com/Weber-Group/How-To-Git-SLAC) repo.
+```bash
+git clone git@github.com:Weber-Group/CXI-1011686-Weber.git
+```
+
+### Much of the code in these notebooks depend on the xrayscatteringtools python library. You can find it [here](xrayscatteringtools).
+
+### If you haven't already, set up the environement which is needed for this code by running the following commands. This only needs to be done once!
 ```bash
 conda init
 conda config --append envs_dirs /sdf/group/lcls/ds/tools/conda_envs/
